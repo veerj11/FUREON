@@ -1,0 +1,25 @@
+.load-page{
+    background: #fff;
+    overflow: hidden;
+}
+.loader{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+.loader div{
+    width: 10%;
+    height: 10%;
+    border: 2px solid #fff;
+    border-top: 2px solid crimson;
+    border-radius: 50%;
+    animation: rotate 2s linear infinite alternate-reverse;
+}
+@keyframes rotate{
+    50%{
+        transform: rotate(150deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
